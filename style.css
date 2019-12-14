@@ -92,35 +92,3 @@ figure:hover {
     box-shadow: 5px 10px 50px black;
     z-index: 50;
 }
-/* .first:hover {
-    
-    z-index: 10px;
-}
-.second:hover {
-    z-index: 20px;
-}
-.third:hover {
-    z-index: 30px;
-}
-.fourth:hover {
-    z-index: 40px;
-}
-.fifth:hover {
-    z-index: 50px;
-}
-.sixth:hover {
-    position: relative;
-    z-index: 1000px;
-}
-.seventh:hover {
-    z-index: 70px;
-}
-.eighth:hover {
-    z-index: 80px;
-}
-.ninth:hover {
-    z-index: 90px;
-}
- */
-
-/* box-shadow: 5px 10px 100px black; */
