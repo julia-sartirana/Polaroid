@@ -1,0 +1,126 @@
+html, body {
+    margin: 0px;
+    height: 100%;
+}
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-madera-natural_24837-269.jpg?size=626&ext=jpg);
+    background-size: cover;
+    height: 100vh
+}
+.figure-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 750px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Caveat', cursive;
+    font-size: 35px;
+}
+h2 {
+    margin: 10px 0px;
+}
+.container {
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+    margin: 10px 10px;
+    padding: 14px;
+    width: 200px;
+    height: 250px;
+    background-color: white;
+    position: relative;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+figcaption {
+height: 40px;
+font-family: 'Caveat', cursive;
+font-size: 24px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 5px;
+}
+
+.first {
+    transform: rotate(15deg);
+}
+.second {
+    transform: rotate(-10deg);
+}
+.third {
+    transform: rotate(12deg);
+}
+.fourth {
+    transform: rotate(-5deg);
+}
+.fifth {
+    transform: rotate(-15deg);
+}
+.sixth {
+    transform: rotate(10deg);
+}
+.seventh{
+    transform: rotate(5deg);
+}
+.eighth{
+    transform: rotate(-10deg);
+}
+.ninth{
+    transform: rotate(5deg);
+}
+.icon-pin {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 247px;
+    left: 100px;
+}
+figure:hover {
+    transform: rotate(0deg);
+    transition-duration: 0.4s;
+    transform: scale(1.2);
+    box-shadow: 5px 10px 50px black;
+    z-index: 50;
+}
+/* .first:hover {
+    
+    z-index: 10px;
+}
+.second:hover {
+    z-index: 20px;
+}
+.third:hover {
+    z-index: 30px;
+}
+.fourth:hover {
+    z-index: 40px;
+}
+.fifth:hover {
+    z-index: 50px;
+}
+.sixth:hover {
+    position: relative;
+    z-index: 1000px;
+}
+.seventh:hover {
+    z-index: 70px;
+}
+.eighth:hover {
+    z-index: 80px;
+}
+.ninth:hover {
+    z-index: 90px;
+}
+ */
+
+/* box-shadow: 5px 10px 100px black; */
