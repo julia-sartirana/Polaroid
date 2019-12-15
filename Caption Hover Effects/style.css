@@ -29,6 +29,8 @@ img {
     height: 310px;
     transition: .3s;
     border-radius: 3px;
+    transition: 1s;
+     
 }
 figcaption {
     width: 460px;
@@ -39,9 +41,9 @@ figcaption {
     align-items: center;
     background-color: #575252;
     color: white;
-    transition: .5s;
     bottom: -90px;
     border-radius: 4px;
+    transition: 1s
 }
 h3 {
     margin: 5px 0px 5px 12px
@@ -67,10 +69,12 @@ button {
 }
 .container:hover figcaption {
     bottom: 0px;
+    transition: .7s;
 }
 .container:hover img {
     transform: scale(1.1);
-    transition: .3s;    
+    transition-delay: .1s; 
+    transform: translateY(-50px);   
 }
 button:hover {
     cursor: pointer;
