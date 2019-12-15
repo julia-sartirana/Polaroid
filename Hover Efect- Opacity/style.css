@@ -65,7 +65,7 @@ figure:hover {
     cursor: pointer;
     background-color: #73442D;
     opacity: 0.8;
-    transition-duration: 7s;
+    transition-duration: .7s;
 }
 figure:hover .bottom-line {
     top: 0px;
