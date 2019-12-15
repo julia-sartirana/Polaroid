@@ -1,0 +1,85 @@
+html, body {
+    margin: 0px;
+    height: 100%;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2F3238;
+}
+main {
+    padding: 25px;
+    background: white;
+}
+figure, img {
+    margin: 0px;
+    width: 440px;
+    height: 330px;
+    position: relative;
+    overflow: hidden;
+    transition-duration: .7s;
+}
+
+figcaption {
+    width: 440px;
+    position: absolute;
+    bottom: 0px;
+
+}
+.text-container {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    margin: 0px 20px;
+    position: relative;
+    top: -10px;
+    transition-duration: .7s;
+    color: #73442D;
+}
+#now, h2, span {
+    margin: 0px 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+   }
+
+h2 {
+    margin: 0px;
+    font-weight: 700;
+}
+#now {
+    font-weight: 300;
+    transition-duration: .7s;
+    display: none;
+}
+.bottom-line {
+    height: 20px;
+    width: 440px;
+    background-color: #F4C494;
+    position: relative;
+    transition-duration: .7s;
+    top: 20px;
+
+}
+figure:hover {
+    cursor: pointer;
+    background-color: #73442D;
+    opacity: 0.8;
+    transition-duration: 7s;
+}
+figure:hover .bottom-line {
+    top: 0px;
+    transition-duration: .7s;
+}
+figure:hover #now {
+    display: block;
+    transition-duration: .7s;
+}
+figure:hover .text-container {
+    top: 5px;
+    transition-duration: .7s;
+}
+figure:hover img {
+    transform: scale(1.2);
+    transition-duration: .7s;
+}
